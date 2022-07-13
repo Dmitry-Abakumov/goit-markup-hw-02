@@ -10,7 +10,7 @@
 body {
     color: var(--primary-font-color);
     font-family: var(--primary-font);
-    font-weight: var(--primary-weight-font)
+    font-weight: var(--primary-weight-font);
 }
 
 .list {
@@ -25,12 +25,25 @@ body {
 .button {
     cursor: pointer;
     background-color:#EEEEEE;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    vertical-align: top;
+    letter-spacing: 3%;
 }
 
 /* Шапка основной страницы */
 .logo {
     font-family: 'Raleway', sans-serif;
-    color:#000000
+    color:#000000;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+        /* identical to box height */
+    
+    letter-spacing: 0.03em;
 }
 .span {
     color: var(--accent-color);
@@ -40,7 +53,7 @@ body {
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
-        color: #000000
+        color: #000000;
 }
 
 .menu-link:hover,
@@ -57,7 +70,7 @@ body {
 
 .contact:hover,
 .contact:focus {
-    color: var(--accent-color)
+    color: var(--accent-color);
 }
 
 /* Уникальный контент основной страницы */
@@ -78,6 +91,13 @@ body {
 .hero-button {
     color: #ffffff;
     background-color: var(--accent-color);
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    vertical-align: center; 
+    letter-spacing: 6%;
 }
 
 .hang-title {
@@ -128,10 +148,14 @@ body {
 
 /* Подвал основной страницы */
 .footer-contact-list {
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     background: #FFFFFF99;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 3%;
 }
 
 .map {
