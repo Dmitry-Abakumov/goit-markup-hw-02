@@ -26,7 +26,7 @@ body {
     cursor: pointer;
     background-color:#EEEEEE;
     font-family: var(--primary-font);
-    font-weight: 500;
+    font-weight: var(--primary-weight-font);
     font-size: 16px;
     line-height: 1.63;
     text-align: center;
@@ -93,10 +93,9 @@ body {
     background-color: var(--accent-color);
     font-family: var(--primary-font);
     font-weight: 700;
-    font-size: 16px;
     line-height: 1.88;
     text-align: center;
-    vertical-align: center; 
+    vertical-align: middle; 
     letter-spacing: 6%;
 }
 
@@ -126,18 +125,16 @@ body {
 }
 
 .list-item-title {
-        font-weight: 500;
-        font-size: 16px;
+        font-weight: var(--primary-weight-font);
         text-align: center;
-        line-height: 1.2;
+        line-height: 1.19;
         /* identical to box height */
         letter-spacing: 0.03em;
 }
 
 .list-item-text {
         font-weight: 400;
-        font-size: 16px;
-        line-height: 1.2;
+        line-height: 1.19;
         /* identical to box height */
     
         text-align: center;
@@ -181,7 +178,6 @@ body {
 
 .text {
         font-weight: 400;
-        font-size: 16px;
         line-height: 1.88;
         /* identical to box height, or 188% */
     
